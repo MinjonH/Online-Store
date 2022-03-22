@@ -1,0 +1,122 @@
+body {
+  font-family: Ink Free;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+hr {
+  border-width: 2px;
+  border-color: lightgray;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#logo {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+li a {
+  color: black;
+}
+
+.nav {
+  padding-bottom: 15px;
+}
+
+li a:hover {
+  color: #c7bab5;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: palevioletred ;
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 0.5cm;
+}
+.left-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 0%;
+  z-index: 3;
+  width: 50%;
+  height: 12cm;
+}
+
+.right-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  right: 0%;
+  z-index: 3;
+  width: 50%;
+  height: 12cm;
+}
+
+
+.left-block h4 {
+  font-family: Dotted Demo;
+  font-weight: bold;
+  font-size: 30pt;
+  text-align: center;
+  color: black;
+  vertical-align: 50%;
+  padding-bottom: 0.5cm;
+}
+
+.right-block h4 {
+  font-family: Dotted Demo;
+  font-weight: bold;
+  font-size: 30pt;
+  text-align: center;
+  color: black;
+  vertical-align: 50%;
+  padding-bottom: 0.5cm;
+}
+
+.left-block p {
+  font-family: Century Gothic;
+  font-weight: lighter;
+  font-size: 13pt;
+  text-align: justify;
+  color: black;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+.right-block p {
+  font-family: Century Gothic;
+  font-weight: lighter;
+  font-size: 13pt;
+  text-align: justify;
+  color: black;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+
+.endLine{
+position: absolute;
+top: 67cm;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-weight: lighter;
+font-family: 'Arial Narrow', Arial, sans-serif;
+font-size: small;
+}

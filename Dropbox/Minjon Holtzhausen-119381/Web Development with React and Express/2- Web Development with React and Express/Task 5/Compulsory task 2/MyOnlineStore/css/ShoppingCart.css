@@ -1,0 +1,168 @@
+  h1 {
+    font-family: 'Tomatoes';
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 35pt;
+  }
+
+  #bottom {
+    max-width: 600px;
+    height: 100vh;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #items,
+  #bottom {
+    padding: 20px;
+  }
+
+  input,
+  button {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  button {
+    color: rgb(255, 255, 255);
+    background: rgb(199, 183, 183);
+    border: 2px solid rgb(153, 116, 116);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* ITEMS */
+  #items {
+    flex-grow: 1;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+  }
+
+  #items .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  #items .row {
+    background: #f4fbff;
+  }
+
+  #items .qty,
+  #items .name,
+  #items .price {
+    padding: 5px;
+  }
+
+  #items .qty {
+    width: 50px;
+  }
+
+  #items .name {
+    flex-grow: 1;
+  }
+
+  #items .price {
+    width: 100px;
+  }
+
+
+  #bottomA,
+  #bottomB {
+    display: flex;
+  }
+
+  #totalS,
+  #totalV,
+  #totalT,
+  #addQty,
+  #addItem,
+  #addPrice {
+    background: none;
+    border: 1px solid white;
+  }
+
+  /* (D2) TOTAL + PRINT */
+  #totalS,
+  #totalV,
+  #totalT {
+    flex-grow: 1;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  /* (D3) ADD ITEM */
+  #addQty {
+    width: 50px;
+  }
+
+  #addItem {
+    flex-grow: 1;
+  }
+
+  #addPrice {
+    width: 100px;
+  }
+
+  #item-count, .item-total{
+    font-weight: bold;
+  }
+
+  /* cart  */
+.cart {
+  position: absolute;
+  min-height: 10rem;
+  background: white;
+  top: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.5);
+  width: 0;
+  overflow: hidden;
+}
+.show-cart {
+  width: 18rem;
+  padding: 2rem 1.5rem;
+  transform: rotateY(-360deg);
+}
+.cart-item {
+  transition: all 2s ease-in-out;
+}
+
+/* end of cart */
+/* cart item */
+.cart-item-remove {
+  color: rgb(214, 84, 84);
+  transition: all 1s ease-in-out;
+}
+.cart-item-remove:hover {
+  transform: scale(1.1);
+  color: black;
+}
+#cart-item-price {
+  font-size: 0.8rem;
+}
+/* cart item */
+/* cart buttons */
+.btn-pink {
+  color: #c7bab5 !important;
+  border-color: #c7bab5 !important;
+}
+.btn-black {
+  color: black !important;
+  border-color: black !important;
+}
+.btn-black:hover {
+  color: #c7bab5 !important;
+  background: black !important;
+}
+.btn-pink:hover {
+  background: #c7bab5 !important;
+  color: black !important;
+}
+/* end of cart buttons */

@@ -1,0 +1,213 @@
+body {
+  font-family: Ink Free;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+hr {
+  border-width: 2px;
+  border-color: lightgray;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#logo {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+li a {
+  color: black;
+}
+
+.nav {
+  padding-bottom: 15px;
+}
+
+li a:hover {
+  color: #c7bab5;
+}
+
+.card-text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(199, 186, 181, 0.6);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0%;
+}
+
+.card-text img {
+  width: 20%;
+  height: auto;
+}
+
+.card-img {
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.card-img-top {
+  height: 2cm;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-img-top:hover {
+  height: 3cm;
+  width: auto;
+}
+
+.card-title {
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  font-family: cursive;
+}
+
+#about {
+  position: absolute;
+  top: 164%;
+  left: 47%;
+  z-index: 1;
+  height: 17cm;
+}
+
+.container {
+  position: relative;
+  padding-top: 2cm;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 100%;
+  left: 24%;
+  z-index: 2;
+  opacity: 0.8;
+  width: 13cm;
+  height: 17cm;
+  background-color: #c7bab4;
+}
+
+.text-block h4 {
+  font-family: Dotted Demo;
+  font-weight: bold;
+  font-size: 48pt;
+  text-align: center;
+  color: black;
+  vertical-align: 50%;
+  padding-top: 40px;
+}
+
+.text-block p {
+  font-family: Century Gothic;
+  font-weight: lighter;
+  font-size: 13pt;
+  text-align: justify;
+  color: black;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+.text-block button {
+  margin-left: 5cm;
+  font-family: Century Gothic;
+  font-weight: lighter;
+}
+
+
+.contact-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 0%;
+  top: 300%;
+  z-index: 3;
+  width: 50%;
+  height: 12cm;
+  background-color: #bd8384;
+}
+
+.contact-block h4 {
+  font-family: Dotted Demo;
+  font-weight: bold;
+  font-size: 48pt;
+  text-align: center;
+  color: black;
+  vertical-align: 50%;
+  padding-top: 100px;
+}
+
+.contact-block p {
+  font-family: Century Gothic;
+  font-weight: lighter;
+  font-size: 13pt;
+  text-align: center;
+  color: black;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+.contact-form {
+  position: absolute;
+  right: 20px;
+  padding-top: 1cm;
+  padding-left: 20px;
+  padding-right: 20px;
+  right: 0%;
+  top: 300%;
+  z-index: 3;
+  width: 50%;
+  height: 12cm;
+  background-color: #bd8384;
+  font-family: 'Century Gothic';
+}
+
+#formGroupName,
+#formGroupEmail,
+#formGroupCell,
+#formGroupMessage {
+  background-color: lightpink;
+}
+
+.row {
+  font-family: Century Gothic;
+  font-weight: lighter;
+  font-size: small;
+  position: absolute;
+  display: flex;
+  top: 65cm;
+}
+
+.column img{
+  display: inline;
+  justify-content: center;
+  margin-left: 145%;
+  margin-right: auto;
+}
+
+.endLine{
+position: absolute;
+top: 67cm;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-weight: lighter;
+font-family: 'Arial Narrow', Arial, sans-serif;
+font-size: small;
+}

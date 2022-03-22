@@ -1,0 +1,34 @@
+.login-menu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10cm;
+  padding-right: 10cm;
+  margin-top: 5%;
+  padding-bottom: 2cm;
+}
+
+body {
+  background-color: #bd8384;
+}
+
+h1{
+  font-family: 'Dotted Demo';
+  font-weight: bold;
+  font-size: 40pt;
+  text-align: center;
+  padding-bottom: 1.5%;
+}
+
+#FormGroupPassword,
+#FormGroupEmail, #FormGroupName, #FormGroupSurname, #FormGroupUser {
+  opacity: 0.6;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
